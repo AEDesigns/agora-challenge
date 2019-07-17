@@ -53,7 +53,14 @@ hr {
 }
 
 .james-rickards {
+    text-align: center;
+}
+
+.james-ricky {
+    display: inline-block;
     padding-top: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .rickards{
@@ -85,10 +92,52 @@ hr {
     padding-top: 10px;
 }
 
+.warn-div{
+    background-color: #f58c99;
+}
+
+.exlam-img{
+    width: 20px;
+    height: auto;
+}
+
+.exlam-txt {
+    color: white;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+/* Sign up Div Styles */
+.sign-up-div{
+    background-color: #05263a;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 60px solid #05263a;
+    margin: 0 auto;
+    position: relative;
+    top: 45px; 
+  }
+
+  .second-check-con{
+      padding-top: 15px;
+  }
+
+  .second-check-txt{
+      text-align: center;
+  }
 
 
 
 
-
-
-
+@media only screen and (max-width: 450px) {
+    .exlam-img{
+        display: none;
+    }
+  }
