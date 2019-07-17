@@ -1,0 +1,94 @@
+*{
+    font-size: 20px;
+}
+.introText {
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid #05263a;
+    margin: 1em auto;
+    padding: 0;
+}
+
+.intoP{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.blueText{
+    color: #005282;
+    font-weight: 600;
+}
+
+.calenderContent{
+    margin-top: 3rem;
+}
+
+.calender-div{
+    background-color: #71a1be;
+}
+
+.caldender{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: auto;
+}
+
+.calenderText{
+    color: white;
+    text-align: center;
+}
+
+.jim-rickards{
+    background-color: #05263a;
+}
+
+.check-point{
+    background-color: grey;
+}
+
+.james-rickards {
+    padding-top: 20px;
+}
+
+.rickards{
+    color: white;
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.checkpoint-list{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.checkpoint-text {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.chk-img {
+    width: 30px;
+    height: auto;
+}
+
+.li-text{
+    font-family: arial, sans-serif;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
