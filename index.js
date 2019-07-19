@@ -26,7 +26,7 @@ function checkBtnSubmit(newsCheck){
     }).then(res => {
         var toObj = JSON.parse(res.body);
         document.getElementById('respbtn').innerHTML = toObj.submitok;
-        document.getElementById('btn-check-two').innerHTML = toObj.submitok;
+        document.getElementById('btn-div-two').innerHTML = toObj.submitok;
       }
     )
   }
